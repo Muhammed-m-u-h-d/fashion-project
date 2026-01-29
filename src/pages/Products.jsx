@@ -19,7 +19,7 @@ function Products() {
     <div className='grid grid-cols-2  sansation-light mt-[7.3rem]'>
       {products.map((val)=>(
         <div key={val.id} className='flex flex-col items-center border border-gray-300 p-3'>
-         <img src={val.image} alt="" />
+         <img src="/products/jackets/1.png" alt="" />
          <p className='line-clamp-1'>{val.name}</p>
          <p>₹{val.price}</p>
         </div>
